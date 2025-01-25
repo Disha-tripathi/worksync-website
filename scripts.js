@@ -36,8 +36,8 @@ hamburger.addEventListener('click', () => {
       trigger: ".main",   // Use the .main div to trigger the animation
       start: " 40%",    // The animation starts when the top of the .main div hits 80% of the viewport height
       end: "bottom 20%",   // The animation ends when the bottom of the .main div reaches 20% of the viewport height
-      scrub: true,         // Creates smooth scroll interaction
-      markers: true        // Show markers for debugging (can be removed after testing)
+      scrub: false,         // Creates smooth scroll interaction
+      markers: false        // Show markers for debugging (can be removed after testing)
     },
   });
   const tl = gsap.timeline({
